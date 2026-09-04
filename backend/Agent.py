@@ -268,7 +268,7 @@ def main():
     # --------------------------------------------------------
 
     chat = client.chats.create(
-        model="gemini-3.6-flash",
+        model="gemini-3.5-flash-lite",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_INSTRUCTION,
             tools=[
@@ -286,7 +286,7 @@ def main():
     print("=" * 60)
     print("MandateX AI Shopping Agent")
     print("=" * 60)
-    print("Gemini: Gemini 3.8 Flash")
+    print("Gemini: Gemini 3.5 Flash Lite")
     print("Merchant: TechBazaar")
     print("Payment: Razorpay Test Mode")
     print("Security: Commerce Mandate")

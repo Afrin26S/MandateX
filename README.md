@@ -80,6 +80,16 @@ Payment   ₹499   Failed     Simulated decline (test SKU) — payment authoriza
 
 All four were run live through a real Gemini model in an interactive session, not scripted — the audit trail above is the actual output, timestamped and unedited.
 
+## Screenshots
+
+**Live dashboard, mid-session** — the same audit trail shown above, as it actually rendered:
+
+![MandateX dashboard showing the live audit trail](screenshots/dashboard-audit-trail.png)
+
+**Independent confirmation from Razorpay's own dashboard** — order IDs and amounts match exactly what the agent reported, proving these are real test-mode orders, not mocked data:
+
+![Razorpay dashboard showing matching test orders](screenshots/razorpay-orders.png)
+
 ## Running it locally
 
 ```
